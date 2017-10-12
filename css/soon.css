@@ -1,0 +1,61 @@
+body, html {
+    height: 100%
+}
+#top-bar .main-menu li a {
+	color: rgba(220,220,220,0.7);
+}
+#top-bar {
+  border-bottom: 0;
+}
+#top-bar.animated-header {
+	padding: 20px 0;
+	background: rgba(255,255,255,0.06);
+	box-shadow: none;
+}
+.soon-bgimg {
+    /* Background image */
+    background-image: url('../images/forestbridge.jpg');
+    /* Full-screen */
+    height: 100%;
+    /* Center the background image */
+    background-position: center;
+    /* Scale and zoom in the image */
+    background-size: cover;
+    /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+    position: relative;
+    /* Add a white text color to all elements inside the .bgimg container */
+    color: white;
+    /* Add a font */
+    font-family: "Courier New", Courier, monospace;
+    /* Set the font-size to 25 pixels */
+    font-size: 25px;
+}
+
+/* Position text in the top-left corner */
+.soon-topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+/* Position text in the bottom-left corner */
+.soon-bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+/* Position text in the middle */
+.soon-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Style the <hr> element */
+hr {
+    margin: auto;
+    width: 40%;
+}
